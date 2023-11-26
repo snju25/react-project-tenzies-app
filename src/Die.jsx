@@ -10,7 +10,7 @@ export default function Die(props) {
             style={styles}
             onClick={props.holdDice}
         >
-            <img src={`./src/images/dice-0${props.value}.svg`} className="die-num" />
+            <img src={`./src/img/dice-0${props.value}.svg`} className="die-num" />
         </div>
     )
 }
